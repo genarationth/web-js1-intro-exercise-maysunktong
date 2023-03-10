@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Change Name</title>
-</head>
-<body>
-    <div id = "inputName"> Hello </div>
-    <input type = "button" onclick = "ChangeName();" name = "change" value = "Change the name" />   
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column">
+      <div id="inputName" style="font-size: 5rem">
+        Hello, <span class="nameSpan">น้องชื่อ?</span>
+      </div>
+      <h2 class="fentyLine"></h2>
+      <h2 class="noName"></h2>
+      <input
+        type="button"
+        onclick="changeName()"
+        name="change"
+        value="Change the name"
+        style="width: fit-content; font-size: 2rem"
+      />
+      <img src="" alt="" class="imgRihanna" width="500px" />
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
